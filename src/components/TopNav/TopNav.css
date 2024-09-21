@@ -1,0 +1,71 @@
+.top-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+.selectGroup{
+    padding: 3px;
+}
+
+.displayButton{
+    position: relative;
+}
+.displayButton .btn {
+    padding: 10px;
+    font-size: 16px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    border: 1px solid var(--text-color);
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .displayButton .btn:hover {
+    background-color: var(--card-hover-background-color);
+    color: var(--card-text-color);
+  }
+
+.dropOnClick{
+    position: absolute;
+    width: 250px;
+    background-color: #f8f8fa;
+    border-radius: 10px;
+    margin-top: 10px;
+    z-index: 10;
+    color:black;
+}
+
+.dropOnClick > *{
+    width: 100%;
+}
+
+.btn{
+    background:  #f8f8fa;;
+    border: 1px solid silver;
+    border-radius: 10px;
+}
+
+.selectStyle{
+    width: 100px;
+    border-radius: 5px;
+    background: white;
+    padding: 2px 5px;
+}
+.theme-toggle-btn {
+    
+    margin-left: auto;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--background-color);
+    color:var(--text-color);
+    cursor: pointer;
+    transition: background-color 0.3s ease,color 0.3s ease;
+}
+.theme-toggle-btn:hover{
+    background-color: var(--text-color);
+    color:var(--background-color);
+}

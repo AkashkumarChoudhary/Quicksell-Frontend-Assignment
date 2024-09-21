@@ -1,0 +1,21 @@
+.dashContainer{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    background: rgb(239, 239, 245);
+    background-color: var(--dash-background-color);
+    padding: 5px 10px;
+}
+
+.dashCardContainer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    gap: 5px;
+    width: 300px;
+    background-color: var(--dash-card-background-color);
+    color: var(--card-text-color);
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }

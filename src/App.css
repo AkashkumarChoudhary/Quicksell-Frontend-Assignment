@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+/* App.css */
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.cardContainer {
+  background-color: var(--card-background-color);
+  color: var(--card-text-color);
+  /* other styles */
+}
+.p-10{
+  padding: 5px 10px;
+}
+
+.f-16{
+  font-size: 16px;
+}
+
+.color-grey{
+  color: gray;
+}
+
+.flex-sb{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-gap-10{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.relative{
+  position: relative;
+}
+
+/* App.css or themes.css */
+:root {
+  --background-color: #ffffff;
+  --text-color: #000000;
+  --card-background-color: #f0f0f0;
+  --card-text-color: #333;
+}
+
+[data-theme="dark"] {
+  --background-color: #121212;
+  --text-color: #e9eae1;
+  --card-background-color: #1e1e1e;
+  --card-text-color: #f3f4e7;
+}
+
+[data-theme="light"] {
+  --background-color: #ffffff;
+  --text-color: #000000;
+  --card-background-color: #f0f0f0;
+  --card-text-color: #333;
+}
+

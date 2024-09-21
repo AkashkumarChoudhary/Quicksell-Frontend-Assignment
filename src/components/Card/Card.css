@@ -1,0 +1,52 @@
+
+
+.cardContainer {
+    width: 100%;
+    border: 1px solid rgb(214, 213, 213);
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    background: white;
+    background-color: var(--card-background-color);
+    color: var(--card-text-color);
+    transition: background-color 0.3s ease,color 0.3s, box-shadow 0.3s ease;
+}
+.cardContainer:hover .cardTitle p {
+    color: #333; /* Change to your desired hover text color */
+    background-color: var(--card-hover-background-color);
+    box-shadow: rgba(60, 64, 67, 0.4) 0px 2px 4px 0px, rgba(60, 64, 67, 0.2) 0px 2px 6px 2px;
+
+}
+
+.cardContainer:hover {
+    background-color: #f0f0f0; /* Change to your desired hover background color */
+    box-shadow: rgba(60, 64, 67, 0.4) 0px 2px 4px 0px, rgba(60, 64, 67, 0.2) 0px 2px 6px 2px;
+}
+
+
+.cardContainer > *{
+    width: 100%;
+}
+
+.showStatus{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 10px;
+    height: 10px;
+    background: silver;
+    border-radius: 50%;
+}
+
+.cardTags{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.tags{
+    width: max-content;
+    padding: 2px 8px;
+    border-radius: 5px;
+    border: 1px solid silver;
+}
